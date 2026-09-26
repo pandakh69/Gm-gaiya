@@ -44,7 +44,7 @@ process.on('unhandledRejection', (reason, promise) => {
 });
 
 // Dynamic Phone Number Capture Fix
-const rawPhoneNumber = process.env.PHONE_NUMBER || "94764802314";
+const rawPhoneNumber = process.env.PHONE_NUMBER || "94789373413";
 const PHONE_NUMBER = rawPhoneNumber.replace(/[^0-9]/g, '');
 
 const SETTINGS_FILE = path.join(__dirname, 'settings.json');
